@@ -1,2 +1,2 @@
 # GeRx
-Geckos State Management for Crossing Front-end Framework
+Geckos State Management for crossing Front-end Frameworks
