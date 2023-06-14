@@ -1,0 +1,31 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": true,
+			"configureZshAsDefaultShell": true,
+			"installOhMyZsh": true,
+			"upgradePackages": true
+		},
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "18"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"EditorConfig.EditorConfig",
+				"standard.vscode-standard",
+				"PKief.material-icon-theme"
+			],
+			"settings": {
+				"standard.autoFixOnSave": true,
+
+				"workbench.iconTheme": "material-icon-theme"
+			}
+		}
+	}
+}

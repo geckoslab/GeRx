@@ -1,0 +1,27 @@
+{
+  "name": "@geckoslab/gerx",
+  "version": "0.0.1",
+  "description": "Geckos State Management for crossing Front-end Frameworks",
+  "main": "lib/index.js",
+  "repository": "https://github.com/geckoslab/GeRx",
+  "author": "Geckos Lab",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "ts-standard",
+    "lint:fix": "yarn lint --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.5",
+    "@types/node": "^20.3.1",
+    "commitlint": "^17.6.5",
+    "husky": "^8.0.3",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.1.3"
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  }
+}
